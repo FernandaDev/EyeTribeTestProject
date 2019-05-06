@@ -19,12 +19,12 @@ public class ChallengeManager : MonoBehaviour
                 if (_currentChallenge != null)
                 {
                     InteractiveObjectController.OnDespawn -= _currentChallenge.Respawn;
-                    ScoreTrigger.OnScore -= _currentChallenge.AddScore;
+                    Score.OnScore -= _currentChallenge.AddScore;
                 }
 
                 _currentChallenge = value;
 
-                ScoreTrigger.OnScore += _currentChallenge.AddScore;
+                Score.OnScore += _currentChallenge.AddScore;
                 InteractiveObjectController.OnDespawn += _currentChallenge.Respawn;
             }
 

@@ -37,6 +37,7 @@ public class ThrowTheBallChallenge : Challenge
 
     void OnTargetDeath(Transform target)
     {
+        AddScore();
         target.gameObject.SetActive(false);
         deadTargetsAmount++;
         target.GetComponent<Rigidbody>().isKinematic = true;

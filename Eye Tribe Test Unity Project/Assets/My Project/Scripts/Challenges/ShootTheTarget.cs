@@ -60,7 +60,6 @@ public class ShootTheTarget : Challenge
     void OnTargetDestroy(GameObject _breakableObject)
     {
         breakeableObject = _breakableObject;
-        AddScore();
         SpawnTargetInRandomPosition();
         targetPool.ReturnGameObjectToPool(_breakableObject);
     }

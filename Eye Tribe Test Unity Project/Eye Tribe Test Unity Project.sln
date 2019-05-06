@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eye Tribe Test Unity Project", "Eye Tribe Test Unity Project.csproj", "{4432B9EF-680C-97B8-7054-96BEDDADB13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eye Tribe Test Unity Project.Editor", "Eye Tribe Test Unity Project.Editor.csproj", "{B2A3EE2D-3E34-3582-CF6E-DE565F2CFD1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4432B9EF-680C-97B8-7054-96BEDDADB13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4432B9EF-680C-97B8-7054-96BEDDADB13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4432B9EF-680C-97B8-7054-96BEDDADB13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4432B9EF-680C-97B8-7054-96BEDDADB13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A3EE2D-3E34-3582-CF6E-DE565F2CFD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A3EE2D-3E34-3582-CF6E-DE565F2CFD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A3EE2D-3E34-3582-CF6E-DE565F2CFD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A3EE2D-3E34-3582-CF6E-DE565F2CFD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
